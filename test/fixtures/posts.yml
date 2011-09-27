@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  description: MyString
+  numberofvotes: 1
+
+two:
+  description: MyString
+  numberofvotes: 1

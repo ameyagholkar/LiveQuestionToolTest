@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LiveQuestionToolTest</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= select("post", "user_id", User.find(:all).collect{ |c| [ c.name, c.id] }) %>
+<%= yield %>
+
+</body>
+</html>
